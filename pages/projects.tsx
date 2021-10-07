@@ -1,4 +1,4 @@
-import ProjectCard from '../components/ProjectCart'
+import ProjectCard from '../components/ProjectCard'
 import { projects } from '../data'
 
 const Projects = () => {
