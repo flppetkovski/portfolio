@@ -2,7 +2,7 @@ import { RiComputerLine} from "react-icons/ri"
 import { FaServer} from "react-icons/fa"
 import { MdDeveloperMode} from "react-icons/md"
 import { AiOutlineAntDesign, AiOutlineApi} from "react-icons/ai"
-import { ServiceProps, SkillProps } from './types'
+import { ProjectProps, Category, ServiceProps, SkillProps } from './types'
 import {BsCircleFill} from "react-icons/bs"
 
 
@@ -86,4 +86,25 @@ export const tools:SkillProps[] = [
        level: "60%",
        Icon: BsCircleFill
    },
+   ]
+
+   export const projects:ProjectProps[] = [
+       {
+name: "k9shrine - Blog",
+description: "This is a blog dedicated to dogs",
+image_path: "/images/k9shrine.PNG",
+deployed_url: "https://www.k9shrine.com",
+github_url: "https://github.com/flppetkovski/hundblog",
+category: ["next.js"],
+key_techs:["next.js, tailwind, serverless functions, markdown"]
+   },
+   {
+    name: "Amazona shop",
+    description: "This is an amazon like shop",
+    image_path: "/images/amazona.png",
+    deployed_url: "https://petkovski-amazona.netlify.app",
+    github_url: "https://github.com/flppetkovski/amazon-shop",
+    category: ["next.js", "mongoDB"], 
+    key_techs:["next.js, materialUI, paypal integration, mongoDB, Context API"]
+       },
    ]
