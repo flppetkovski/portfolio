@@ -34,9 +34,8 @@ const [showDetail, setShowDetail]= useState(false)
     <h3 className="mb-3 font-medium">{description}</h3>
     <div className="flex flex-wrap mt-5 space-x-2 text-sm tracking-wider">
         {key_techs.map(tech=>{
-            return (
-                <span key={tech}
-                className="px-2 py-1 my-1 bg-gray-200 rounded-sm dark:bg-dark-200"
+            return (<span key={tech}
+                                className="px-2 py-1 my-1 bg-gray-200 rounded-sm dark:bg-dark-200"
                 >{tech}</span>
             )
         })}

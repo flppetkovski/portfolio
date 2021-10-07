@@ -96,7 +96,7 @@ image_path: "/images/k9shrine.PNG",
 deployed_url: "https://www.k9shrine.com",
 github_url: "https://github.com/flppetkovski/hundblog",
 category: ["next.js"],
-key_techs:["next.js, tailwind, serverless functions, markdown"]
+key_techs:["next.js", "tailwind", "serverless functions", "markdown"]
    },
    {
     name: "Amazona shop",
@@ -105,6 +105,6 @@ key_techs:["next.js, tailwind, serverless functions, markdown"]
     deployed_url: "https://petkovski-amazona.netlify.app",
     github_url: "https://github.com/flppetkovski/amazon-shop",
     category: ["next.js", "mongoDB"], 
-    key_techs:["next.js, materialUI, paypal integration, mongoDB, Context API"]
+    key_techs:["next.js", "materialUI", "paypal integration", "mongoDB", "Context API"]
        },
    ]
