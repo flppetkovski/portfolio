@@ -6,3 +6,9 @@ export type ServiceProps = {
     Icon: IconType
     children?: any
 }
+
+export type SkillProps = {
+    name: string
+    level: string
+    Icon: IconType
+}

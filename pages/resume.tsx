@@ -1,24 +1,65 @@
+import Bar from '../components/Bar'
 import ServiceCard from '../components/ServiceCard'
-import { services } from '../data'
+import { languages, services, tools } from '../data'
 services
 ServiceCard
 const resume = () => {
     return (
-        <div className="p-4">
-            <h5>
-                I have completed the JavaScript Academy at "Semos", Skopje, Macedonia. I am 
-                focused on FrontEnd development therefore I have dived deep React.js and its ecosystem.
-                I love Next.js.
-                Spend a lot of time every day watching tons of tutorials and videos on YouTube to code better and mimic applications.
-                I maintain the blog <span className="font-black">www.k9shrine.com</span>
-            </h5>
-            <h6>What I offer</h6>
-            <div>
-                {services.map(service=>(
-                <ServiceCard key={service.title} service={service}
-                 />))}
-            </div>
-        </div>
+        <div className="px-6 py-2">
+     <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+         <div>
+             <h5 className="my-3 text-2xl font-bold">
+                 Education
+             </h5>
+             <div>
+                 <h5 className="my-2 text-xl font-bold">WebDeveloper</h5>
+                 <p className="font-semibold">
+                     Completed the JavaScript Academy at Semos in Skopje, Macedonia (2019 - 2020), as well as the Scrimba FrontEnd Developer Bootcamp later in 2020.
+                 </p>
+                 <p className="my-3">
+          I am currently specializing in Next.js and Typescript. Looking forward to transitioning to the Blockchain and completing Goggle's UX certified course.
+                 </p>
+             </div>
+         </div>
+         <div>
+             <h5 className="my-3 text-2xl font-bold">
+                 Experience
+             </h5>
+             <div>
+                 <h5 className="my-2 text-xl font-bold">Frontend Developer, MERN stack, Next.js</h5>
+                 <p className="font-semibold">
+                   (2019-2021)
+                 </p>
+                 <p className="my-3">
+                         Maintaining www.k9shrine.com and freelancing.
+                 </p>
+             </div>
+         </div>
+     </div>
+     
+     <div className="grid grid-cols-2 gap-6 md">
+         <div>
+             <h5 className="text-2xl font-bold m3">Languages & frameworks</h5>
+             <div className="my-2">
+                 {languages.map(language => (
+                     <Bar data={language} key={language.name} />
+                 ))}
+             </div>
+         </div>
+   
+         <div>
+             <h5 className="text-2xl font-bold m3">Tools & Software</h5>
+             <div className="my-2">
+                 {tools.map(tool => (
+                     <Bar data={tool} key={tool.name} />
+                 ))}
+             </div>
+         </div>
+     </div>
+
+     </div>
+
+
     )
 }
 
