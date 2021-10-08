@@ -20,8 +20,8 @@ const Sidebar = () => {
             <a className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200" href="/CV_Filip_Petkovski.pdf" download="CV_Filip_Petkovski.pdf" ><GiTie className="w-6 h-6"/> Download Resume</a>
             <div>
              <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full">
-            <a href="https://github.com/flppetkovski?tab=re positories"><AiFillGithub className="w-8 h-8 cursor-pointer"/></a>
-            <a href="https://www.linkedin.com/in/filip- petkovski-06766b100/"><AiFillLinkedin className="w-8 h-8 cursor-pointer"/></a>
+            <a href="https://github.com/flppetkovski?tab=re positories"><AiFillGithub className="w-8 h-8 cursor-pointer" aria-label="github profile"/></a>
+            <a href="https://www.linkedin.com/in/https://www.linkedin.com/in/filip-petkovski-06766b100/" aria-label="linkedIn profile" ><AiFillLinkedin className="w-8 h-8 cursor-pointer"/></a>
             </div> 
                 <div className="py-4 my-5 bg-gray-200 dark:bg-dark-200" style={{marginLeft: "-1rem", marginRight: "-1rem"}}>
                     <div className="flex items-center justify-center space-x-2"><GoLocation />
