@@ -23,4 +23,4 @@ export type ProjectProps = {
     key_techs: string[]
 }
 
-export type Category = "react" | "node" | "express" | "next.js" | "typescript" | "mongoDB"
+export type Category = "react" | "node"  | "next.js" | "typescript" | "mongoDB"
