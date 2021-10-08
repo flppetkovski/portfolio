@@ -103,7 +103,7 @@ key_techs:["next.js", "tailwind", "serverless functions", "markdown"]
     id:2,
     name: "Amazona shop",
     description: "This is an amazon like shop",
-    image_path: "/images/amazona.png",
+    image_path: "/images/amazona.PNG",
     deployed_url: "https://petkovski-amazona.netlify.app",
     github_url: "https://github.com/flppetkovski/amazon-shop",
     category: ["next.js", "mongoDB"], 
