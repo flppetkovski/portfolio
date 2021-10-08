@@ -18,10 +18,13 @@ const Projects = () => {
 if (category === "all") {
   setProjects(projectsData)
   setActiveItem(category)
+  setShowDetail(null)
   return
 }
 
 const newArray = projectsData.filter(project=>project.category.includes(category))
+setShowDetail(null)
+
 setProjects(newArray)
 setActiveItem(category)
   }
