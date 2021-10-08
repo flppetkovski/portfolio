@@ -6,22 +6,21 @@ import Image from    "next/image"
 import { motion } from 'framer-motion'
 import { fadeInUp, stagger } from '../animation'
 
-const ProjectCard: FunctionComponent<{project:ProjectProps}> = ({project:{name, image_path, github_url, deployed_url, description, category, key_techs}}) => {
-const [showDetail, setShowDetail]= useState(false)
+const ProjectCard: FunctionComponent<{project:ProjectProps, showDetail:null | number, setShowDetail: (id:null | number)=> void}> = ({project:{id, name, image_path, github_url, deployed_url, description, category, key_techs}, showDetail, setShowDetail}) => {
 
     return (
         <div>
-            <Image src={image_path} alt={name} className="cursor-pointer" onClick={()=>setShowDetail(true)} width="300" height="150" layout="responsive" />
+            <Image src={image_path} alt={name} className="cursor-pointer" onClick={()=>setShowDetail(id)} width="300" height="150" layout="responsive" />
             <p className="my-2 text-center">{name}</p>
         
         {
-            showDetail && (
+            showDetail === id && (
         
         
         
-            <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100">
+            <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 rounded-lg md:10 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100">
 <motion.div variants={fadeInUp}>
- <motion.div animate="animate" initial="initial" variants={stagger}> <Image src={image_path} alt={name} layout="responsive" width="300" height="150" /></motion.div>
+ <motion.div className="border-4 border-gray-100" animate="animate" initial="initial" variants={stagger}> <Image src={image_path} alt={name} layout="responsive" width="300" height="150" /></motion.div>
 <motion.div  variants={fadeInUp} className="flex justify-center my-4 space-x-3">
     
     <a href={github_url} className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-300 dark:bg-dark-200">
@@ -44,7 +43,7 @@ const [showDetail, setShowDetail]= useState(false)
         })}
         <button 
         className="absolute p-1 bg-gray-200 rounded-full top-3 right-3 focus:outline-none dark:bg-dark-200"
-        ><MdClose onClick={()=>setShowDetail(false)} size={30}/></button>
+        ><MdClose onClick={()=>setShowDetail(null)} size={30}/></button>
         </motion.div>
 </motion.div>
 

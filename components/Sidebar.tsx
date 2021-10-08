@@ -14,14 +14,14 @@ const Sidebar = () => {
 
     return (
         <div>
-            <Image src="/Filip.jpg" alt="my picture" className="mx-auto rounded-full " height="128px" width="128px" quality="100" layout="intrinsic" />
+            <Image src="/filip_petkovski.jpg" alt="my picture" className="mx-auto rounded-full " height="128px" width="128px" quality="100" layout="intrinsic" />
             <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan"><span className="text-green">Filip </span> Petkovski</h3>
             <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">Web Developer</p>
-            <a className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200" href="" download="name" ><GiTie className="w-6 h-6"/> Download Resume</a>
+            <a className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200" href="/CV_Filip_Petkovski.pdf" download="CV_Filip_Petkovski.pdf" ><GiTie className="w-6 h-6"/> Download Resume</a>
             <div>
              <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full">
-            <a href=""><AiFillGithub className="w-8 h-8 cursor-pointer"/></a>
-            <a href=""><AiFillLinkedin className="w-8 h-8 cursor-pointer"/></a>
+            <a href="https://github.com/flppetkovski?tab=re positories"><AiFillGithub className="w-8 h-8 cursor-pointer"/></a>
+            <a href="https://www.linkedin.com/in/filip- petkovski-06766b100/"><AiFillLinkedin className="w-8 h-8 cursor-pointer"/></a>
             </div> 
                 <div className="py-4 my-5 bg-gray-200 dark:bg-dark-200" style={{marginLeft: "-1rem", marginRight: "-1rem"}}>
                     <div className="flex items-center justify-center space-x-2"><GoLocation />
