@@ -1,13 +1,17 @@
 import Bar from '../components/Bar'
-import ServiceCard from '../components/ServiceCard'
-import { languages, services, tools } from '../data'
-services
-ServiceCard
+import { languages, tools } from '../data'
+import {motion} from "framer-motion"
+import { fadeInUp, routeAnimation } from '../animation'
+
+
 const resume = () => {
+   
+
+   
     return (
-        <div className="px-6 py-2">
+        <motion.div className="px-6 py-2" variants={routeAnimation} initial="initial" exit="exit" animate="animate">
      <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
-         <div>
+         <motion.div variants={fadeInUp} initial="initial" animate="animate">
              <h5 className="my-3 text-2xl font-bold">
                  Education
              </h5>
@@ -20,12 +24,12 @@ const resume = () => {
           I am currently specializing in Next.js and Typescript. Looking forward to transitioning to the Blockchain and completing Goggle's UX certified course.
                  </p>
              </div>
-         </div>
+         </motion.div>
          <div>
              <h5 className="my-3 text-2xl font-bold">
                  Experience
              </h5>
-             <div>
+             <motion.div variants={fadeInUp} initial="initial" animate="animate">
                  <h5 className="my-2 text-xl font-bold">Frontend Developer, MERN stack, Next.js</h5>
                  <p className="font-semibold">
                    (2019-2021)
@@ -33,7 +37,7 @@ const resume = () => {
                  <p className="my-3">
                          Maintaining www.k9shrine.com and freelancing.
                  </p>
-             </div>
+             </motion.div>
          </div>
      </div>
      
@@ -57,7 +61,7 @@ const resume = () => {
          </div>
      </div>
 
-     </div>
+     </motion.div>
 
 
     )

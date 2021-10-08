@@ -90,6 +90,7 @@ export const tools:SkillProps[] = [
 
    export const projects:ProjectProps[] = [
        {
+           id:1,
 name: "k9shrine - Blog",
 description: "This is a blog dedicated to dogs",
 image_path: "/images/k9shrine.PNG",
@@ -99,6 +100,7 @@ category: ["next.js"],
 key_techs:["next.js", "tailwind", "serverless functions", "markdown"]
    },
    {
+    id:2,
     name: "Amazona shop",
     description: "This is an amazon like shop",
     image_path: "/images/amazona.png",

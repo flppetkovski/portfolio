@@ -1,9 +1,11 @@
+import { motion } from 'framer-motion'
+import { fadeInUp, routeAnimation, stagger } from '../animation'
 import ServiceCard from '../components/ServiceCard'
 import { services } from '../data'
 
 const index = () => {
     return (
-        <div className="flex flex-col flex-grow px-6 pt-1">
+        <motion.div className="flex flex-col flex-grow px-6 pt-1" variants={routeAnimation} exit="exit" initial="initial" animate="animate">
             <h5 className="my-3 font-medium ">
             I have completed the JavaScript Academy at "Semos", Skopje, Macedonia, as well as the Scrimba FrontEnd Developer Bootcamp. I 
                 have dived deep in React.js and its ecosystem.
@@ -14,15 +16,15 @@ const index = () => {
             </h5>
 <div className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100" style={{marginRight: "-1.5rem", marginLeft:"-1.5rem"}}>
             <h6 className="my-3 text-xl font-bold tracking-wide">What I offer</h6>
-            <div className="grid gap-6 lg:grid-cols-2">
+            <motion.div className="grid gap-6 lg:grid-cols-2" animate="animate" initial="initial" variants={stagger}>
                 {services.map(service=>(
-                  <div key={service.title} className="bg-gray-200 rounded-lg dark:bg-dark-100 lg:col-span-1">
+                  <motion.div variants={fadeInUp}  key={service.title} className="bg-gray-200 rounded-lg dark:bg-dark-100 lg:col-span-1">
                 <ServiceCard  service={service} />
-                </div>
+                </motion.div>
                 ))}
-            </div>
+            </motion.div>
         </div>
-        </div>
+        </motion.div>
     )
 }
 
