@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Head } from 'next/document';
+import Head  from 'next/head'
 import { useState } from 'react';
 import { fadeInUp, routeAnimation, stagger } from '../animation';
 import ProjectCard from '../components/ProjectCard'
