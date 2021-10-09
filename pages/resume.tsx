@@ -10,8 +10,8 @@ const resume = () => {
 
    
     return (
+                        <><Head>Web Developer | Resume | Filip</Head>
         <motion.div className="px-6 py-2" variants={routeAnimation} initial="initial" exit="exit" animate="animate">
-                        <Head>Web Developer | Resume | Filip</Head>
 
      <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
          <motion.div variants={fadeInUp} initial="initial" animate="animate">
@@ -65,7 +65,7 @@ const resume = () => {
      </div>
 
      </motion.div>
-
+</>
 
     )
 }

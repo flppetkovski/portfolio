@@ -4,9 +4,9 @@ import ServiceCard from '../components/ServiceCard'
 import { services } from '../data'
 import Head from "next/head"
 const index = () => {
+    <Head>Web Developer | portfolio | Filip</Head>
     return (    
         <motion.div className="flex flex-col flex-grow px-6 pt-1" variants={routeAnimation} exit="exit" initial="initial" animate="animate">
-            <Head>Web Developer | portfolio | Filip</Head>
             <h5 className="my-3 font-medium ">
             I have completed the JavaScript Academy at "Semos", Skopje, Macedonia, as well as the Scrimba FrontEnd Developer Bootcamp. I 
                 have dived deep in React.js and its ecosystem.
