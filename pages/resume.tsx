@@ -9,7 +9,7 @@ const resume = () => {
    
 
    
-    return (   <><Head>Web Developer | Resume | Filip</Head>
+    return (   <><Head> <title>Web Developer | Resume | Filip</title></Head>
       
         <motion.div className="px-6 py-2" variants={routeAnimation} initial="initial" exit="exit" animate="animate">
 

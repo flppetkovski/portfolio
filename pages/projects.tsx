@@ -31,7 +31,7 @@ setActiveItem(category)
   }
 
   return (
-      <><Head>Web Developer | Projects | Filip</Head>
+      <><Head><title>Web Developer | Projects | Filip</title></Head>
     <motion.div className="px-5 py-2 overflow-y-scroll" style={{height:"65vh"}} variants={routeAnimation} initial="initial" animate="animate" exit="exit">
 
 <ProjectsNavbar handleFilterCategory={handleFilterCategory} active={activeItem} />
