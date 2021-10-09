@@ -2,15 +2,15 @@ import Bar from '../components/Bar'
 import { languages, tools } from '../data'
 import {motion} from "framer-motion"
 import { fadeInUp, routeAnimation } from '../animation'
-import { Head } from 'next/document'
+import Head  from 'next/head'
 
 
 const resume = () => {
    
 
    
-    return (
-                        <><Head>Web Developer | Resume | Filip</Head>
+    return (   <><Head>Web Developer | Resume | Filip</Head>
+      
         <motion.div className="px-6 py-2" variants={routeAnimation} initial="initial" exit="exit" animate="animate">
 
      <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
