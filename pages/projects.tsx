@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Head } from 'next/document';
 import { useState } from 'react';
 import { fadeInUp, routeAnimation, stagger } from '../animation';
 import ProjectCard from '../components/ProjectCard'
@@ -31,6 +32,8 @@ setActiveItem(category)
 
     return (
     <motion.div className="px-5 py-2 overflow-y-scroll" style={{height:"65vh"}} variants={routeAnimation} initial="initial" animate="animate" exit="exit">
+            <Head>Web Developer | Projects | Filip</Head>
+
 <ProjectsNavbar handleFilterCategory={handleFilterCategory} active={activeItem} />
         <motion.div animate="animate" initial="initial" variants={stagger} className="relative grid grid-cols-12 gap-4 my-3">
         {projects.map((project) => (
