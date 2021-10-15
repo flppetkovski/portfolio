@@ -63,7 +63,7 @@ export const languages:SkillProps[] = [
 
 export const tools:SkillProps[] = [
     {
-        name: "Git & GitHub",
+        name: "Github",
         level: "85%",
         Icon: BsCircleFill
     },
@@ -73,7 +73,7 @@ export const tools:SkillProps[] = [
        Icon: BsCircleFill
    },
    {
-       name: "MongoDb",
+       name: "Mongo",
        level: "85%",
        Icon: BsCircleFill
    },
@@ -97,7 +97,7 @@ image_path: "/images/k9shrine.PNG",
 deployed_url: "https://www.k9shrine.com",
 github_url: "https://github.com/flppetkovski/hundblog",
 category: ["next.js"],
-key_techs:["next.js", "tailwind", "serverless functions", "markdown"]
+key_techs:["next.js", "tailwind", "markdown"]
    },
    {
     id:2,
@@ -106,7 +106,16 @@ key_techs:["next.js", "tailwind", "serverless functions", "markdown"]
     image_path: "/images/amazona.PNG",
     deployed_url: "https://petkovski-amazona.netlify.app",
     github_url: "https://github.com/flppetkovski/amazon-shop",
-    category: ["next.js", "mongoDB"], 
+    category: ["next.js", "mongo"], 
     key_techs:["next.js", "materialUI", "paypal integration", "mongoDB", "Context API"]
        },
+      { id:3,
+       name: "Expense calculator",
+       description: "This is the first project I ever built. For Desktop only.",
+       image_path: "/images/expense-calculator.PNG",
+       deployed_url: "https://petkovski-expense-calculator.netlify.app/",
+       github_url: "https://github.com/flppetkovski/expense-calculator-fe",
+       category: ["react", "express", "node", "mongo"], 
+       key_techs:["react", "materialUI", "mongoDB", "node", "express" ]
+          },
    ]

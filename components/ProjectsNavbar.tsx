@@ -22,8 +22,9 @@ const ProjectsNavbar:FunctionComponent<{handleFilterCategory:Function, active:st
            <NavItem value="react" {...props}/> 
            <NavItem value="next.js" {...props}/> 
            <NavItem value="typescript" {...props}/> 
-           <NavItem value="mongoDB" {...props}/> 
+           <NavItem value="mongo" {...props}/> 
            <NavItem value="node" {...props}/> 
+           <NavItem value="express" {...props}/> 
         </div>
     )
 }

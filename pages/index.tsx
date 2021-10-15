@@ -11,9 +11,9 @@ const index = () => {
             I have completed the JavaScript Academy at "Semos", Skopje, Macedonia, as well as the Scrimba FrontEnd Developer Bootcamp. I 
                 have dived deep in React.js and its ecosystem.
                 <span className="font-black"> I love Next.js </span>
-                and every day I am spending a lot of time  watching tons of tutorials and videos on Udemy and YouTube to code better and mimic applications.
-                I maintain the blog <span className="font-black">www.k9shrine.com</span>
-                I also have a bachelor's degree in Enlgish language and literature.
+                and every day I spend a lot of time trying to improve my skills.
+                I maintain the blog <span className="font-black">www.k9shrine.com.</span>
+            <p>I also have a bachelor's degree in Enlgish language and literature.</p>
             </h5>
 <div className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100" style={{marginRight: "-1.5rem", marginLeft:"-1.5rem"}}>
             <h6 className="my-3 text-xl font-bold tracking-wide">What I offer</h6>
