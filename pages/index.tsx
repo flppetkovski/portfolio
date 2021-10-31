@@ -17,9 +17,9 @@ const index = () => {
             </h5>
 <div className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100" style={{marginRight: "-1.5rem", marginLeft:"-1.5rem"}}>
             <h6 className="my-3 text-xl font-bold tracking-wide">What I offer</h6>
-            <motion.div className="grid gap-6 lg:grid-cols-2" animate="animate" initial="initial" variants={stagger}>
+            <motion.div className="grid gap-6 lg:grid-cols-2"  variants={stagger}>
                 {services.map(service=>(
-                  <motion.div variants={fadeInUp}  key={service.title} className="bg-gray-200 rounded-lg dark:bg-dark-100 lg:col-span-1">
+                  <motion.div variants={fadeInUp} animate="animate" initial="initial"  key={service.title} className="bg-gray-200 rounded-lg dark:bg-dark-100 lg:col-span-1">
                 <ServiceCard  service={service} />
                 </motion.div>
                 ))}

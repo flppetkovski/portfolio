@@ -110,12 +110,21 @@ key_techs:["next.js", "tailwind", "markdown"]
     key_techs:["next.js", "materialUI", "paypal integration", "mongoDB", "Context API"]
        },
       { id:3,
-       name: "Expense calculator",
-       description: "This is the first project I ever built. For Desktop only.",
-       image_path: "/images/expense-calculator.PNG",
-       deployed_url: "https://petkovski-expense-calculator.netlify.app/",
-       github_url: "https://github.com/flppetkovski/expense-calculator-fe",
+       name: "Memories",
+       description: "A MERN application with authentication, file sharing and more.",
+       image_path: "/images/memories_project.PNG",
+       deployed_url: "https://petkovski-memories.netlify.app/home",
+       github_url: "https://github.com/flppetkovski/memories",
        category: ["react", "express", "node", "mongo"], 
        key_techs:["react", "materialUI", "mongoDB", "node", "express" ]
           },
+          { id:4,
+            name: "Expense calculator",
+            description: "This is the first project I ever built. For Desktop only.",
+            image_path: "/images/expense-calculator.PNG",
+            deployed_url: "https://petkovski-expense-calculator.netlify.app/",
+            github_url: "https://github.com/flppetkovski/expense-calculator-fe",
+            category: ["react", "express", "node", "mongo"], 
+            key_techs:["react", "materialUI", "mongoDB", "node", "express" ]
+               },
    ]
