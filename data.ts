@@ -52,7 +52,7 @@ export const languages:SkillProps[] = [
 },
 {
     name: "Node",
-    level: "85%",
+    level: "80%",
     Icon: BsCircleFill
 }, {
     name: "Typescript",
@@ -64,7 +64,7 @@ export const languages:SkillProps[] = [
 export const tools:SkillProps[] = [
     {
         name: "Github",
-        level: "85%",
+        level: "80%",
         Icon: BsCircleFill
     },
     {
@@ -74,7 +74,7 @@ export const tools:SkillProps[] = [
    },
    {
        name: "Mongo",
-       level: "85%",
+       level: "80%",
        Icon: BsCircleFill
    },
    {
@@ -82,8 +82,8 @@ export const tools:SkillProps[] = [
        level: "80%",
        Icon: BsCircleFill
    }, {
-       name: "Figma",
-       level: "60%",
+       name: "Tesing",
+       level: "67%",
        Icon: BsCircleFill
    },
    ]
