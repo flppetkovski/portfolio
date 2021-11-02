@@ -68,8 +68,8 @@ export const tools:SkillProps[] = [
         Icon: BsCircleFill
     },
     {
-       name: "Bootstrap",
-       level: "85%",
+       name: "English",
+       level: "100%",
        Icon: BsCircleFill
    },
    {
