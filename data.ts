@@ -52,7 +52,7 @@ export const languages:SkillProps[] = [
 },
 {
     name: "Node",
-    level: "80%",
+    level: "75%",
     Icon: BsCircleFill
 }, {
     name: "Typescript",
