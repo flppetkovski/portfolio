@@ -47,7 +47,7 @@ export const languages:SkillProps[] = [
 },
 {
     name: "CSS",
-    level: "70%",
+    level: "75%",
     Icon: BsCircleFill
 },
 {
@@ -56,7 +56,7 @@ export const languages:SkillProps[] = [
     Icon: BsCircleFill
 }, {
     name: "Typescript",
-    level: "72%",
+    level: "75%",
     Icon: BsCircleFill
 },
 ]
@@ -82,7 +82,7 @@ export const tools:SkillProps[] = [
        level: "90%",
        Icon: BsCircleFill
    }, {
-       name: "Tesing",
+       name: "Testing",
        level: "67%",
        Icon: BsCircleFill
    },
