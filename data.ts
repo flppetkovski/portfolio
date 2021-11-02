@@ -79,7 +79,7 @@ export const tools:SkillProps[] = [
    },
    {
        name: "Express",
-       level: "80%",
+       level: "90%",
        Icon: BsCircleFill
    }, {
        name: "Tesing",
