@@ -112,8 +112,8 @@ key_techs:["next.js", "tailwind", "markdown"]
       { id:3,
        name: "Memories",
        description: "A MERN application with authentication, file sharing and more.",
-       image_path: "/images/memories_project.PNG",
-       deployed_url: "https://petkovski-memories.netlify.app/home",
+       image_path: "/images/memories.PNG",
+       deployed_url: "memories-petkovski.netlify.app",
        github_url: "https://github.com/flppetkovski/memories",
        category: ["react", "express", "node", "mongo"], 
        key_techs:["react", "materialUI", "mongoDB", "node", "express" ]
