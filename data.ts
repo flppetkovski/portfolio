@@ -111,7 +111,7 @@ key_techs:["next.js", "tailwind", "markdown"]
        },
       { id:3,
        name: "Memories",
-       description: "A MERN application with authentication, file sharing and more. Need to implement Cloudinary to speed up the app and show its real beauty.",
+       description: "A MERN application with authentication, file sharing and more. Should have implemented Cloudinary and GraphQL for this kind of app. Such a shame",
        image_path: "/images/memories.PNG",
        deployed_url: "https://memories-petkovski.netlify.app",
        github_url: "https://github.com/flppetkovski/memories",
