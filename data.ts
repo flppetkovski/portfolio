@@ -109,7 +109,16 @@ key_techs:["next.js", "tailwind", "markdown"]
     category: ["next.js", "mongo"], 
     key_techs:["next.js", "materialUI", "paypal integration", "mongoDB", "Context API"]
        },
-      { id:3,
+       { id:3,
+        name: "Shopify - clone",
+        description: "A shopify clone with music player, authentication and search functionality.",
+        image_path: "/images/spotify.PNG",
+        deployed_url: "https://petkovski-spotify.netlify.app",
+        github_url: "https://github.com/flppetkovski/spotify-clone",
+        category: ["next.js"], 
+        key_techs:["next.js", "Spotify API", "TailWind" ]
+           },
+      { id:5,
        name: "Memories",
        description: "A MERN application with authentication, file sharing and more. I will refactor it withCloudinary and GraphQL to make it performant.",
        image_path: "/images/memories.PNG",
@@ -118,7 +127,7 @@ key_techs:["next.js", "tailwind", "markdown"]
        category: ["react", "express", "node", "mongo"], 
        key_techs:["react", "materialUI", "mongoDB", "node", "express" ]
           },
-          { id:4,
+          { id:5,
             name: "Expense calculator",
             description: "This is the first project I ever built. For Desktop only.",
             image_path: "/images/expense-calculator.PNG",
