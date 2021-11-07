@@ -110,9 +110,9 @@ key_techs:["next.js", "tailwind", "markdown"]
     key_techs:["next.js", "materialUI", "paypal integration", "mongoDB", "Context API"]
        },
        { id:3,
-        name: "Shopify - clone",
-        description: "A shopify clone with music player, authentication and search functionality.",
-        image_path: "/images/spotify.PNG",
+        name: "Spotify - clone",
+        description: "A spotify clone with music player, authentication and search functionality.",
+        image_path: "/images/spotify-clone.PNG",
         deployed_url: "https://petkovski-spotify.netlify.app",
         github_url: "https://github.com/flppetkovski/spotify-clone",
         category: ["next.js"], 
