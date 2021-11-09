@@ -116,7 +116,7 @@ key_techs:["next.js", "tailwind", "markdown"]
         deployed_url: "https://petkovski-spotify.netlify.app",
         github_url: "https://github.com/flppetkovski/spotify-clone",
         category: ["next.js"], 
-        key_techs:["next.js", "Spotify API", "TailWind" ]
+        key_techs:["next.js", "Spotify API", "Tailwind" ]
            },
       { id:5,
        name: "Memories",
