@@ -118,7 +118,7 @@ key_techs:["next.js", "tailwind", "markdown"]
         category: ["next.js"], 
         key_techs:["next.js", "Spotify API", "Tailwind" ]
            },
-      { id:5,
+      { id:4,
        name: "Memories",
        description: "A MERN application with authentication, file sharing and more. I will refactor it withCloudinary and GraphQL to make it performant.",
        image_path: "/images/memories.PNG",
