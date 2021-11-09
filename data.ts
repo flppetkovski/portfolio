@@ -129,7 +129,7 @@ key_techs:["next.js", "tailwind", "markdown"]
           },
           { id:5,
             name: "Expense calculator",
-            description: "This is the first project I ever built. For Desktop only.",
+            description: "This is the first project I ever built at the end of 2018, displayed for reference only. It's for For Desktop only.",
             image_path: "/images/expense-calculator.PNG",
             deployed_url: "https://petkovski-expense-calculator.netlify.app/",
             github_url: "https://github.com/flppetkovski/expense-calculator-fe",
