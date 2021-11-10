@@ -118,16 +118,7 @@ key_techs:["next.js", "tailwind", "markdown"]
         category: ["next.js"], 
         key_techs:["next.js", "Spotify API", "Tailwind" ]
            },
-      { id:4,
-       name: "Memories",
-       description: "A MERN application with authentication, file sharing and more. I will refactor it withCloudinary and GraphQL to make it performant.",
-       image_path: "/images/memories.PNG",
-       deployed_url: "https://memories-petkovski.netlify.app",
-       github_url: "https://github.com/flppetkovski/memories",
-       category: ["react", "express", "node", "mongo"], 
-       key_techs:["react", "materialUI", "mongoDB", "node", "express" ]
-          },
-          { id:5,
+          { id:4,
             name: "Expense calculator",
             description: "This is the first project I ever built at the end of 2018, displayed for reference only. It's for For Desktop only.",
             image_path: "/images/expense-calculator.PNG",
