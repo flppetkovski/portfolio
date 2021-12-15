@@ -119,13 +119,13 @@ key_techs:["next.js", "tailwind", "markdown"]
         key_techs:["next.js", "Spotify API", "Tailwind" ]
            },
       { id:4,
-       name: "Memories",
-       description: "A MERN application with authentication, file sharing and more. I will refactor it withCloudinary and GraphQL to make it performant.",
-       image_path: "/images/memories.PNG",
-       deployed_url: "https://memories-petkovski.netlify.app",
-       github_url: "https://github.com/flppetkovski/memories",
-       category: ["react", "express", "node", "mongo"], 
-       key_techs:["react", "materialUI", "mongoDB", "node", "express" ]
+       name: "Valtech Landing Page",
+       description: "A responsive landing page for Valtech",
+       image_path: "/images/valtech.PNG",
+       deployed_url: "https://petkovski-valtech.netlify.app/",
+       github_url: "https://github.com/flppetkovski/valtech",
+       category: [], 
+       key_techs:["javascript, css" ]
           },
           { id:5,
             name: "Expense calculator",
