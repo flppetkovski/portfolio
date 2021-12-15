@@ -111,7 +111,7 @@ key_techs:["next.js", "tailwind", "markdown"]
        },
        { id:3,
         name: "Spotify - clone",
-        description: "A spotify clone with music player (if you have spotify account) , authentication and search functionality.",
+        description: "A spotify clone with music player (if you have PREMIUM spotify account) , authentication and search functionality.",
         image_path: "/images/spotify-clone.PNG",
         deployed_url: "https://petkovski-spotify.netlify.app",
         github_url: "https://github.com/flppetkovski/spotify-clone",
