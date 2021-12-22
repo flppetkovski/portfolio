@@ -130,7 +130,7 @@ key_techs:["next.js", "tailwind", "markdown"]
           { id:5,
             name: "Weather PWA",
             description: "PWA for getting weather. Installable on Mobile and PC",
-            image_path: "./public/images/weather-pwa.PNG",
+            image_path: "/images/weather-pwa.PNG",
             deployed_url: "https://petkovski-weather.netlify.app/",
             github_url: "https://github.com/flppetkovski/weather-pwa",
             category: ["react"], 
