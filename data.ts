@@ -131,7 +131,7 @@ key_techs:["next.js", "tailwind", "markdown"]
             name: "Weather PWA",
             description: "PWA for getting weather.",
             image_path: "./public/images/weather-pwa.PNG",
-            deployed_url: "https://petkovski-expense-calculator.netlify.app/",
+            deployed_url: "https://petkovski-weather.netlify.app/",
             github_url: "https://github.com/flppetkovski/weather-pwa",
             category: ["react"], 
             key_techs:["react", "progressive web app - PWA" ]
@@ -140,7 +140,7 @@ key_techs:["next.js", "tailwind", "markdown"]
             name: "Expense calculator",
             description: "This is the first project I ever built at the end of 2018, displayed for reference only. It's for For Desktop only.",
             image_path: "/images/expense-calculator.PNG",
-            deployed_url: "https://petkovski-weather.netlify.app/",
+            deployed_url: "https://petkovski-expense-calculator.netlify.app/",
             github_url: "https://github.com/flppetkovski/expense-calculator-fe",
             category: ["react", "express", "node", "mongo"], 
             key_techs:["react", "materialUI", "mongoDB", "node", "express" ]
